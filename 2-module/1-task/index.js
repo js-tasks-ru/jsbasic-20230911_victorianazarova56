@@ -10,8 +10,6 @@ let salaries = {
 function sumSalary(salariesObj) {
   let sum = 0;
   for (let key in salariesObj) {
-    // console.log(key);
-    // console.log(salariesObj[key]);
     if (Number.isFinite(salariesObj[key])) {
       sum = sum + salariesObj[key];
     }
