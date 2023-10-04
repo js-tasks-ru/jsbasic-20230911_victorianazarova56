@@ -6,5 +6,6 @@ function makeDiagonalRed(table) {
         table.rows[i].cells[j].style.backgroundColor = 'red';
       }
     }
-  } 
-}
+  }
+}    
+
