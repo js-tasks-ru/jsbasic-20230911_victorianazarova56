@@ -15,7 +15,7 @@ describe('6-module-2-task', () => {
       id: "laab-kai-chicken-salad"
     };
 
-    clickEvent = new MouseEvent('click', { bubbles: true });
+    clickEvent = new MouseEvent('click', {bubbles: true});
 
     sut = new ProductCard(product);
 
@@ -30,7 +30,7 @@ describe('6-module-2-task', () => {
     it('свойство elem возвращает один и тот же элемент, при каждом обращении', () => {
       const elementFirstCall = sut.elem;
       const elementSecondCall = sut.elem;
-  
+
       expect(elementFirstCall).toBe(elementSecondCall);
     });
 
@@ -70,7 +70,7 @@ describe('6-module-2-task', () => {
 
       document.body.addEventListener(productAddEventName, (event) => {
         productAddEvent = event;
-      }, { once: true });
+      }, {once: true});
 
       let addButton = sut.elem.querySelector('.card__button');
 
