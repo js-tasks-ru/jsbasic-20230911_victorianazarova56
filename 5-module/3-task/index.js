@@ -30,4 +30,4 @@ function initCarousel() {
       carouselArrowRight.style.display = '';
     }
   });
-};
+}

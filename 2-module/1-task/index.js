@@ -14,7 +14,6 @@ function sumSalary(salariesObj) {
       sum = sum + salariesObj[key];
     }
   }
-  console.log(sum);
   return sum;
 }
 
